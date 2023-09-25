@@ -1,0 +1,8 @@
+#include <stdio.h>
+int area(int a, int b, int h)
+{
+return 0.5 * (a + b) * h; //'a' and 'b' are the parallel sides, and 'h' is the perpendicular distance.
+}
+int perimeter(int a, int b, int c, int d)
+{
+return (a + b + c + d);
